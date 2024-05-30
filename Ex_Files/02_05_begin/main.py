@@ -12,7 +12,7 @@ if current_env == DEVELOPMENT:
     print("Development environment")
 elif current_env == PRODUCTION:
     print("Production environment")
-elif current_env == STAGING:
+elif current_env == 'STAGING':
     print("Staging environment")
 elif current_env in [CODE_SPACE, LOCAL]:
     print("Codespace or local environment")
